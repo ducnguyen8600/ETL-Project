@@ -11,7 +11,7 @@ Many people signup for their training. Company wants to know which of these cand
 
 Information related to demographics, education, experience are in hands from candidates signup and enrollment.
 
-### **1 Enrollies' data**
+### **1. Enrollies' data**
 
 As enrollies are submitting their request to join the course via Google Forms, we have the Google Sheet that stores data about enrolled students, containing the following columns:
 
@@ -25,7 +25,7 @@ As enrollies are submitting their request to join the course via Google Forms, w
 
 The source: https://docs.google.com/spreadsheets/d/1VCkHwBjJGRJ21asd9pxW4_0z2PWuKhbLR3gUHm-p4GI/edit?usp=sharing
 
-### **2 Enrollies' education**
+### **2. Enrollies' education**
 
 After enrollment everyone should fill the form about their education level. This form is being digitalized manually. Educational department stores it in the Excel format here: https://assets.swisscoding.edu.vn/company_course/enrollies_education.xlsx
 
@@ -39,7 +39,7 @@ This table contains the following columns:
 
 - `major_discipline`: Specifies the primary field of study for the enrollee. Examples include `STEM`, `Business Degree`, etc.
 
-### **3 Enrollies' working experience**
+### **3. Enrollies' working experience**
 
 Another survey that is being collected manually by educational department is about working experience.
 
@@ -54,7 +54,7 @@ This table contains the following columns:
 - `company_type`: Indicates the type of company where the enrollee has worked. Examples include `Pvt Ltd`, `Funded Startup`, etc.
 - `last_new_job`: Represents the number of years since the enrollee's last job change. Examples include never, >4, 1, etc.
 
-### **4 Training hours**
+### **4. Training hours**
 
 From LMS system's database you can retrieve a number of training hours for each student that they have completed.
 
@@ -68,7 +68,7 @@ From LMS system's database you can retrieve a number of training hours for each 
 - Database name: `company_course`
 - Table name: `training_hours`
 
-### **5 City development index**
+### **5. City development index**
 
 Another source that can be usefull is the table of City development index.
 
@@ -76,7 +76,7 @@ The City Development Index (CDI) is a measure designed to capture the level of d
 
 It is stored here: https://sca-programming-school.github.io/city_development_index/index.html
 
-### **6 Employment**
+### **6. Employment**
 
 From LMS database you can also retrieve the fact of employment. If student is marked as employed, it means that this student started to work in our company after finishing the course.
 
